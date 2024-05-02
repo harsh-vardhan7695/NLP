@@ -3,6 +3,7 @@
 Natural Language Processing (NLP) typically requires preprocessing the raw text data to prepare it for further analysis or modeling. The preprocessing steps help to clean, normalize, and transform the text into a format that can be effectively processed by NLP algorithms. Here are some common NLP preprocessing techniques:
 
 **Tokenization**: This involves splitting the text into smaller units called tokens, such as words, phrases, or sentences. Common tokenization methods include word tokenization, sentence tokenization, and subword tokenization (e.g., byte-pair encoding).
+
 **Text Normalization**: This step involves converting the text into a consistent format by applying various normalization techniques, such as:
 
         Converting to lowercase or uppercase
