@@ -11,12 +11,19 @@ Natural Language Processing (NLP) typically requires preprocessing the raw text 
         Handling special characters or symbols
 
 **Stopword Removal**: Stopwords are common words that carry little or no semantic value, such as "the," "a," "is," and "and." Removing these words can reduce noise and improve the efficiency of NLP models.
+
 **Stemming and Lemmatization**: These techniques aim to reduce inflected words to their base or root form. Stemming involves removing affixes (prefixes and suffixes) from words, while lemmatization uses vocabulary and morphological analysis to obtain the base form (lemma) of a word.
+
 **Part-of-Speech (POS) Tagging**: This process involves assigning a part-of-speech tag (e.g., noun, verb, adjective) to each word in the text, which can provide valuable syntactic and semantic information.
+
 **Named Entity Recognition (NER)**: NER involves identifying and classifying named entities (e.g., person names, organizations, locations) in the text, which is useful for various NLP tasks like information extraction and question answering.
+
 **Removing HTML/XML Tags**: For web-based or structured text data, it is often necessary to remove HTML or XML tags to extract the plain text content.
+
 **Handling Encoding Issues**: Text data can be encoded in various formats (e.g., UTF-8, ASCII), and it is essential to handle encoding issues to ensure proper processing and avoid garbled text.
+
 **Handling Misspellings and Slang**: Depending on the application, it may be necessary to correct misspelled words or handle slang and informal language used in social media or other informal contexts.
+
 **Text Vectorization**: This step involves converting the preprocessed text into numerical vectors that can be input into machine learning models. Common techniques include bag-of-words, TF-IDF, word embeddings (e.g., Word2Vec, GloVe), and contextualized embeddings (e.g., BERT, GPT).
 
 The specific preprocessing steps and their order may vary depending on the NLP task, the nature of the text data, and the requirements of the machine learning model being used. It is often an iterative process, where different preprocessing techniques are tried and evaluated based on their impact on the performance of the NLP model.
